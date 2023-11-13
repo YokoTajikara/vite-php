@@ -1,0 +1,11 @@
+{
+	"watch": [
+		"assets/",
+		"nested/"
+	],
+	"ignore": [
+		"dist/"
+	],
+	"ext": "js,scss,css,html,php",
+	"exec": "npm run build && npm run reload"
+}
