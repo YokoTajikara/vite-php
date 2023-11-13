@@ -45,3 +45,7 @@
 ## 参考
 
 [参考サイト](https://flex-box.net/vite-for-coder/#co-index-0)
+
+## 注意
+
+vite-hmtlブランチを使ったあとはnpm installをやり直すこと（nodemonパッケージを追加するため）
