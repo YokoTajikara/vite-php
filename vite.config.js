@@ -9,9 +9,9 @@ export default defineConfig({
 	build: {
 		rollupOptions: {
 			input: {
-				/* main: resolve(__dirname, 'index.html'),
-				nested: resolve(__dirname, 'nested/index.html'), */
-				main: 'main.js',
+				main: resolve(__dirname, 'index.html'),
+				nested: resolve(__dirname, 'nested/index.html'),
+				kaso01: resolve(__dirname, 'blog/index.html'),
 			},
 			output: {
 				// エントリーポイントごとのファイル出力設定
@@ -28,7 +28,6 @@ export default defineConfig({
 				}
 			}
 		},
-		manifest: true,
 	},
 	plugins: [
 		legacy({

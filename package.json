@@ -15,7 +15,6 @@
 		"@vitejs/plugin-legacy": "^4.1.1",
 		"autoprefixer": "^10.4.16",
 		"browser-sync": "^2.29.3",
-		"nodemon": "^3.0.1",
 		"postcss": "^8.4.31",
 		"vite": "^4.4.5",
 		"vite-plugin-imagemin": "^0.6.1"
