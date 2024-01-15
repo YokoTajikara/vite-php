@@ -34,7 +34,7 @@ if (isset($manifest['main.js'])) {
     <div id="app">
 		<h1>Topページ php</h1>
 		<p class="txt">これはviteとphpを連携したサンプルです</p>
-		<p class="txt">masterにテキスト追加</p>
+		<p class="txt">masterにテキスト追加　masterを優先</p>
 		<h2>動作手順</h2>
 		<ul>
 			<li>npm install</li>
